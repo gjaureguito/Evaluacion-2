@@ -159,7 +159,7 @@ html {
 	transition: .3s ease-in-out;
 }
 .hover07:hover{
-	-webkit-filter: blur(0);
+	-webkit-filter: blur(10px);
 	filter: blur(0);
 }
 
@@ -172,7 +172,7 @@ html {
 	transition: .3s ease-in-out;
 }
 .hover08:hover{
-	-webkit-filter: grayscale(0);
+	-webkit-filter: grayscale(100%);
 	filter: grayscale(0);
 }
 
@@ -184,8 +184,8 @@ html {
 	transition: .3s ease-in-out;
 }
 .hover09:hover{
-	-webkit-filter: sepia(0);
-	filter: sepia(0);
+	-webkit-filter: sepia(90%);
+	filter: sepia(90%);
 }
 
 .container {
@@ -272,5 +272,6 @@ float:right;
 
 .pie{
 flex-direction: column;
+background-color:#C6d5c5;
 }
 }
